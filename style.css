@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #99b6b6;
+    margin-top: 2rem;
+    margin: 20rem;
+}
+
+.white{
+    border: 2px solid grey;
+    height: 400px;
+    width: 700px;
+    background-color: white;
+}
+
+.green{
+    background-color: green;
+    height: 100%;
+    width: 70%;
+    position: relative;
+    left: 30%;
+}
+
+.moon{
+    height: 200px;
+    width: 180px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    left: 30%;
+    top: 20%;
+}
+
+.moon-circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: green;
+    position: relative;
+    left: 20%;
+    bottom: 7%;
+}
+
+.five-pointed-star {
+ --star-color:white;
+ /* margin:1em auto;  */
+ font-size:50px;
+ position: relative;
+ display: block;
+ width: 0px;
+ height: 0px;
+ border-right: 1em solid transparent;
+ border-bottom: 0.7em solid var(--star-color);
+ border-left: 1em solid transparent;
+ transform: rotate(35deg);
+}
+.five-pointed-star:before {
+ border-bottom: 0.8em solid var(--star-color);
+ border-left: 0.3em solid transparent;
+ border-right: 0.3em solid transparent;
+ position: absolute;
+ height: 0;
+ width: 0;
+ top: -0.45em;
+ left: -0.65em;
+ display: block;
+ content:"";
+ transform: rotate(-35deg);
+}
+.five-pointed-star:after {
+ position: absolute;
+ display: block;
+ top: 0.03em;
+ left: -1.05em;
+ width: 0;
+ height: 0;
+ border-right: 1em solid transparent;
+ border-bottom: 0.7em solid var(--star-color);
+ border-left: 1em solid transparent;
+ transform: rotate(-70deg);
+ content:"";
+}
+
+#star{
+    position: relative;
+    top: 70px;
+    left: 70px;
+}
+
+.stick{
+    background-color: #966F33;
+    height: 500px;
+    width: 7px;
+}
+
+.box1{
+    height: 50px;
+    width: 100px;
+    background-color: #BC4A3C;
+    position: relative;
+    right: 40px;
+}
+
+.box2{
+    height: 50px;
+    width: 100px;
+    background-color: #BC4A3C;
+    position: relative;
+    right: 80px;
+}
+
+.box3{
+    height: 50px;
+    width: 100px;
+    background-color: #BC4A3C;
+    position: relative;
+    left: 7px;
+    bottom: 50px;
+}
+
+.box4{
+    height: 50px;
+    width: 100px;
+    background-color: #BC4A3C;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+}
+
+
+.box5{
+    height: 50px;
+    width: 100px;
+    background-color: #BC4A3C;
+    position: relative;
+    right: 20px;
+    bottom: 100px;
+}
+
+
+.box6{
+    height: 50px;
+    width: 100px;
+    background-color: #BC4A3C;
+    position: relative;
+    right: 120px;
+    bottom: 150px;
+}
+
